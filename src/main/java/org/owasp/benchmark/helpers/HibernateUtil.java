@@ -106,7 +106,7 @@ public class HibernateUtil {
 
     public void destroyClassicSession() {
         getClassicSession().close();
-        if (conn != null)
+        if (conn != null),sdnfdsjlnf
             try {
                 conn.close();
             } catch (SQLException e) {
